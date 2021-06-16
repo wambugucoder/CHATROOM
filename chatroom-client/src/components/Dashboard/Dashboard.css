@@ -1,0 +1,49 @@
+.chat-rooms{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.specific-room{
+    width: 90%;
+    border-radius: 15px;
+    border: 2px solid #7a7c77;
+    padding: 20px;
+    
+
+}
+.room-footer{
+    position:absolute;
+    bottom:0;
+    left: 1%;
+    text-align:left;
+    justify-content:left;
+    font-weight: 700;
+}
+.room-name{
+    position:absolute;
+    top: 0;
+    left: 1%;
+    text-align:left;
+    justify-content:left;
+    font-weight: 700;
+    font-size: large;
+    text-transform: capitalize;
+}
+
+.room-description{
+    font-weight: 700;
+    font-size: large;
+    text-transform: capitalize;
+}
+.join-room{
+    position:absolute;
+    bottom:0;
+    right: 0.5;
+    justify-content:right;
+    text-align: right;
+}
+.join-room .join-button{
+    border-radius:0.5rem;
+    border: 1px solid;
+}

@@ -1,0 +1,30 @@
+.create-room{  
+  display: inline-block;
+  margin-top: 3rem;
+  width: 70%;
+  justify-content: center;
+  align-items: center;
+   
+}
+.header{
+  margin-top: 2rem;
+  padding-left: 60px;
+}
+.header .create-room-header{
+  font-weight: 700;
+  font-size: 25px;
+}
+
+
+#components-form-demo-normal-login .login-form {
+    max-width: 300px;
+  }
+  #components-form-demo-normal-login .login-form-forgot {
+    float: right;
+  }
+  #components-form-demo-normal-login .ant-col-rtl .login-form-forgot {
+    float: left;
+  }
+  #components-form-demo-normal-login .login-form-button {
+    width: 100%;
+  }
